@@ -1,0 +1,1004 @@
+D (56203) phy_init: wifi mac time delta: 300370
+D (56513) phy_init: wifi mac time delta: 293741
+D (56823) phy_init: wifi mac time delta: 197000
+D (57123) phy_init: wifi mac time delta: 299829
+D (57433) phy_init: wifi mac time delta: 301591
+D (57743) phy_init: wifi mac time delta: 299157
+D (58043) phy_init: wifi mac time delta: 301134
+D (58353) phy_init: wifi mac time delta: 295373
+D (58663) phy_init: wifi mac time delta: 301145
+D (58973) phy_init: wifi mac time delta: 299162
+D (59273) phy_init: wifi mac time delta: 300017
+I (59373) APP: publishing msg "{temp : 22}" to topic: "/devices/d_esp1/events"
+[64109631][iotc_mqtt_logic_layer_publish_q1_command.h:64 (do_mqtt_publish_q1)] [m.id[3]]publish q1 preparing message
+[64109638][iotc_mqtt_logic_layer_publish_q1_command.h:78 (do_mqtt_publish_q1)] [m.id[3]]publish q1 sending message
+[64109648][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] encoding
+[64109656][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] mqtt_codec_layer sending message
+[64109667][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64109673][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64109682][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (59433) phy_init: wifi mac time delta: 148771
+[64109697][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 57 bytes written
+[64109702][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64109708][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64109716][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64109723][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64109731][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64109740][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 40 bytes written
+[64109746][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64109752][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64109761][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] mqtt_codec_layer message sent
+[64109771][iotc_mqtt_logic_layer_publish_q1_command.h:84 (do_mqtt_publish_q1)] [m.id[3]]publish q1 has been sent
+[64109864][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[3] m.type[4]] msg decoded!
+[64109865][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[3] m.type[4]] received msg
+[64109872][iotc_mqtt_logic_layer_publish_q1_command.h:155 (do_mqtt_publish_q1)] [m.id[3]]publish q1 publish puback received
+D (59803) phy_init: wifi mac time delta: 138779
+D (59893) phy_init: wifi mac time delta: 33068
+D (60193) phy_init: wifi mac time delta: 242514
+D (60233) phy_init: wifi mac time delta: 11821
+D (60503) phy_init: wifi mac time delta: 209312
+D (60813) phy_init: wifi mac time delta: 297796
+D (61123) phy_init: wifi mac time delta: 301379
+D (61423) phy_init: wifi mac time delta: 301595
+D (61733) phy_init: wifi mac time delta: 300406
+D (62043) phy_init: wifi mac time delta: 301560
+D (62353) phy_init: wifi mac time delta: 294695
+D (62653) phy_init: wifi mac time delta: 297122
+D (62963) phy_init: wifi mac time delta: 301534
+D (63273) phy_init: wifi mac time delta: 297941
+D (63573) phy_init: wifi mac time delta: 295306
+D (63883) phy_init: wifi mac time delta: 300821
+D (64193) phy_init: wifi mac time delta: 300690
+D (64503) phy_init: wifi mac time delta: 293786
+I (64623) APP: Delete previous connection
+I (64623) APP: Delete context state: 0
+I (64623) APP: Shutdown IOTC
+I (64623) APP: Shutdown state: 0
+I (64623) APP: Initialize IOTC
+I (64633) APP: Create new context
+I (64633) APP: Refreshing iotc JWT
+D (64803) phy_init: wifi mac time delta: 299195
+I (65093) APP: IOTCORE JWT State: 0
+
+[64115352][iotc.c:448 (iotc_connect_to)] New host:port [mqtt.2030.ltsapis.goog]:[8883]
+[64115352][iotc.c:462 (iotc_connect_to)] new backoff value: 0
+[64115358][iotc_control_topic_layer.c:77 (iotc_control_topic_layer_init)] control topic layer initializing.. 
+D (65113) phy_init: wifi mac time delta: 299534
+[64115529][iotc_tls_layer.c:560 (iotc_tls_layer_init)] BSP TLS initialization successfull
+[64115529][iotc_tls_layer.c:591 (iotc_tls_layer_init)] successfully initialized BSP TLS module
+[64115534][iotc_io_net_layer.c:61 (iotc_io_net_layer_connect)] Connecting layer [0] to the endpoint: mqtt.2030.ltsapis.goog:8883
+D (65283) phy_init: wifi mac time delta: 167378
+[64115599][iotc_io_net_layer.c:92 (iotc_io_net_layer_connect)] Connection successful!
+[64115602][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64115606][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 251 bytes written
+[64115612][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64115618][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (65723) phy_init: wifi mac time delta: 227873
+D (66033) phy_init: wifi mac time delta: 299809
+D (66343) phy_init: wifi mac time delta: 293084
+D (66653) phy_init: wifi mac time delta: 299952
+D (66953) phy_init: wifi mac time delta: 299264
+D (67263) phy_init: wifi mac time delta: 301496
+D (67573) phy_init: wifi mac time delta: 299267
+D (67873) phy_init: wifi mac time delta: 301062
+D (68183) phy_init: wifi mac time delta: 301025
+[64118454][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64118457][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 12 bytes written
+[64118459][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64118465][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (68493) phy_init: wifi mac time delta: 203669
+D (68803) phy_init: wifi mac time delta: 242028
+[64119274][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (69013) phy_init: wifi mac time delta: 209899
+[64119280][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 75 bytes written
+[64119284][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64119290][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64119304][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64119308][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 6 bytes written
+[64119314][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64119320][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64119330][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64119338][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 45 bytes written
+[64119343][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64119349][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64119435][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[0] m.type[1]] encoding
+[64119436][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[0] m.type[1]] mqtt_codec_layer sending message
+[64119444][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64119450][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64119459][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64119470][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 353 bytes written
+[64119474][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64119480][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64119489][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[0] m.type[1]] mqtt_codec_layer message sent
+[64119499][iotc_mqtt_logic_layer_connect_command.h:131 (do_mqtt_connect)] connect message has been sent
+[64119563][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[0] m.type[2]] msg decoded!
+[64119564][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[0] m.type[2]] received msg
+iotc_control_topic_connection_state_changed
+I (69313) APP: connected!
+I (69313) APP: subscribing to topic: "/devices/d_esp1/commands/#"
+I (69323) APP: subscribing to topic: "/devices/d_esp1/config"
+[64119591][iotc_mqtt_logic_layer_subscribe_command.h:59 (do_mqtt_subscribe)] [m.id[1]]subscribe preparing message
+[64119601][iotc_mqtt_logic_layer_subscribe_command.h:69 (do_mqtt_subscribe)] [m.id[1]]subscribe sending message
+[64119611][iotc_mqtt_logic_layer_subscribe_command.h:59 (do_mqtt_subscribe)] [m.id[2]]subscribe preparing message
+[64119621][iotc_mqtt_logic_layer_subscribe_command.h:69 (do_mqtt_subscribe)] [m.id[2]]subscribe sending message
+[64119631][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[8]] encoding
+[64119639][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[8]] mqtt_codec_layer sending message
+[64119650][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64119656][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64119665][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (69413) phy_init: wifi mac time delta: 50576
+[64119679][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 62 bytes written
+[64119684][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64119690][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64119699][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[8]] mqtt_codec_layer message sent
+[64119709][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[2] m.type[8]] encoding
+[64119718][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[2] m.type[8]] mqtt_codec_layer sending message
+[64119729][iotc_mqtt_logic_layer_subscribe_command.h:75 (do_mqtt_subscribe)] [m.id[1]]subscribe has been sent
+[64119738][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64119744][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64119753][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64119762][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 58 bytes written
+[64119768][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64119774][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64119783][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[2] m.type[8]] mqtt_codec_layer message sent
+[64119793][iotc_mqtt_logic_layer_subscribe_command.h:75 (do_mqtt_subscribe)] [m.id[2]]subscribe has been sent
+[64119807][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[1] m.type[9]] msg decoded!
+[64119812][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[1] m.type[9]] received msg
+[64119821][iotc_mqtt_logic_layer_subscribe_command.h:149 (do_mqtt_subscribe)] [m.id[1]]subscribe suback received
+I (69573) APP: Subscription Topic: /devices/d_esp1/commands/#
+I (69573) APP: Message Payload:  
+I (69583) APP: Inside topic
+
+I (69583) APP: value: 0
+[64119848][iotc_user_sub_call_wrapper.c:100 (iotc_user_sub_call_wrapper)] user callback returned with state: , (0)
+[64119862][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[2] m.type[9]] msg decoded!
+[64119867][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[2] m.type[9]] received msg
+[64119876][iotc_mqtt_logic_layer_subscribe_command.h:149 (do_mqtt_subscribe)] [m.id[2]]subscribe suback received
+I (69623) APP: Subscription Topic: /devices/d_esp1/config
+I (69633) APP: Message Payload:  
+I (69633) APP: subscribe topic command: /devices/d_esp1/commands/#
+I (69643) APP: Message topic: /devices/d_esp1/config
+[64119908][iotc_user_sub_call_wrapper.c:100 (iotc_user_sub_call_wrapper)] user callback returned with state: , (0)
+[64119922][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[1] m.type[3]] msg decoded!
+[64119927][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[1] m.type[3]] received msg
+[64119936][iotc_mqtt_logic_layer_publish_handler.h:160 (on_publish_q1_recieved)] [m.id[1]preparing puback data
+[64119946][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[4]] encoding
+[64119954][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[4]] mqtt_codec_layer sending message
+[64119965][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64119971][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64119980][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (69723) phy_init: wifi mac time delta: 2459
+[64119990][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 33 bytes written
+[64120000][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64120005][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64120014][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[4]] mqtt_codec_layer message sent
+[64120024][iotc_mqtt_logic_layer_publish_handler.h:168 (on_publish_q1_recieved)] [m.id[1]]PUBACK sent
+[64120033][iotc_mqtt_logic_layer_publish_handler.h:48 (call_topic_handler)] [m.id[1]] looking for publish message handler
+I (69783) APP: Subscription Topic: /devices/d_esp1/config
+I (69793) APP: Message Payload:  
+I (69793) APP: subscribe topic command: /devices/d_esp1/commands/#
+I (69803) APP: Message topic: /devices/d_esp1/config
+[64120066][iotc_user_sub_call_wrapper.c:100 (iotc_user_sub_call_wrapper)] user callback returned with state: , (0)
+D (70033) phy_init: wifi mac time delta: 197565
+D (70333) phy_init: wifi mac time delta: 294684
+D (70643) phy_init: wifi mac time delta: 298623
+D (70953) phy_init: wifi mac time delta: 293257
+D (71253) phy_init: wifi mac time delta: 292541
+D (71553) phy_init: wifi mac time delta: 286204
+D (71873) phy_init: wifi mac time delta: 239233
+D (72183) phy_init: wifi mac time delta: 210033
+D (72483) phy_init: wifi mac time delta: 288670
+D (72793) phy_init: wifi mac time delta: 294386
+D (73103) phy_init: wifi mac time delta: 297465
+D (73403) phy_init: wifi mac time delta: 300746
+D (73713) phy_init: wifi mac time delta: 296223
+D (74023) phy_init: wifi mac time delta: 297239
+D (74333) phy_init: wifi mac time delta: 295406
+D (74633) phy_init: wifi mac time delta: 194731
+D (74943) phy_init: wifi mac time delta: 299625
+D (75253) phy_init: wifi mac time delta: 299824
+D (75553) phy_init: wifi mac time delta: 298368
+D (75863) phy_init: wifi mac time delta: 224456
+D (76173) phy_init: wifi mac time delta: 300513
+D (76483) phy_init: wifi mac time delta: 193284
+D (76783) phy_init: wifi mac time delta: 300970
+D (77093) phy_init: wifi mac time delta: 298775
+D (77403) phy_init: wifi mac time delta: 197900
+D (77713) phy_init: wifi mac time delta: 296740
+D (78013) phy_init: wifi mac time delta: 301562
+D (78323) phy_init: wifi mac time delta: 295522
+D (78633) phy_init: wifi mac time delta: 297042
+D (78933) phy_init: wifi mac time delta: 301536
+D (79243) phy_init: wifi mac time delta: 299751
+D (79553) phy_init: wifi mac time delta: 299318
+I (79813) APP: publishing msg "{temp : 29}" to topic: "/devices/d_esp1/events"
+[64130071][iotc_mqtt_logic_layer_publish_q1_command.h:64 (do_mqtt_publish_q1)] [m.id[3]]publish q1 preparing message
+[64130078][iotc_mqtt_logic_layer_publish_q1_command.h:78 (do_mqtt_publish_q1)] [m.id[3]]publish q1 sending message
+[64130088][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] encoding
+[64130097][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] mqtt_codec_layer sending message
+[64130107][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64130113][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+D (79863) phy_init: wifi mac time delta: 299031
+[64130128][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64130138][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 57 bytes written
+[64130142][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64130148][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64130156][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64130163][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64130171][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64130180][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 40 bytes written
+[64130186][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64130192][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64130201][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] mqtt_codec_layer message sent
+[64130211][iotc_mqtt_logic_layer_publish_q1_command.h:84 (do_mqtt_publish_q1)] [m.id[3]]publish q1 has been sent
+D (80163) phy_init: wifi mac time delta: 198261
+[64130549][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[3] m.type[4]] msg decoded!
+[64130550][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[3] m.type[4]] received msg
+[64130557][iotc_mqtt_logic_layer_publish_q1_command.h:155 (do_mqtt_publish_q1)] [m.id[3]]publish q1 publish puback received
+D (80473) phy_init: wifi mac time delta: 80934
+D (80783) phy_init: wifi mac time delta: 301355
+D (81083) phy_init: wifi mac time delta: 301522
+D (81393) phy_init: wifi mac time delta: 300865
+D (81703) phy_init: wifi mac time delta: 300894
+D (82013) phy_init: wifi mac time delta: 301426
+D (82313) phy_init: wifi mac time delta: 293382
+D (82623) phy_init: wifi mac time delta: 198074
+D (82933) phy_init: wifi mac time delta: 300249
+D (83233) phy_init: wifi mac time delta: 299714
+D (83543) phy_init: wifi mac time delta: 298892
+D (83853) phy_init: wifi mac time delta: 301563
+D (84163) phy_init: wifi mac time delta: 300385
+D (84463) phy_init: wifi mac time delta: 292741
+D (84773) phy_init: wifi mac time delta: 301473
+D (85083) phy_init: wifi mac time delta: 298391
+I (85303) APP: Delete previous connection
+I (85303) APP: Delete context state: 0
+I (85303) APP: Shutdown IOTC
+I (85303) APP: Shutdown state: 0
+I (85303) APP: Initialize IOTC
+I (85313) APP: Create new context
+I (85313) APP: Refreshing iotc JWT
+D (85393) phy_init: wifi mac time delta: 196572
+D (85693) phy_init: wifi mac time delta: 197708
+I (85783) APP: IOTCORE JWT State: 0
+
+[64136045][iotc.c:448 (iotc_connect_to)] New host:port [mqtt.2030.ltsapis.goog]:[8883]
+[64136046][iotc.c:462 (iotc_connect_to)] new backoff value: 0
+[64136051][iotc_control_topic_layer.c:77 (iotc_control_topic_layer_init)] control topic layer initializing.. 
+[64136217][iotc_tls_layer.c:560 (iotc_tls_layer_init)] BSP TLS initialization successfull
+[64136218][iotc_tls_layer.c:591 (iotc_tls_layer_init)] successfully initialized BSP TLS module
+[64136223][iotc_io_net_layer.c:61 (iotc_io_net_layer_connect)] Connecting layer [0] to the endpoint: mqtt.2030.ltsapis.goog:8883
+D (85973) phy_init: wifi mac time delta: 272965
+[64136354][iotc_io_net_layer.c:92 (iotc_io_net_layer_connect)] Connection successful!
+[64136356][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64136361][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 251 bytes written
+[64136366][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64136372][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (86313) phy_init: wifi mac time delta: 45690
+D (86613) phy_init: wifi mac time delta: 299658
+D (86923) phy_init: wifi mac time delta: 301209
+D (87233) phy_init: wifi mac time delta: 300791
+D (87543) phy_init: wifi mac time delta: 301501
+D (87843) phy_init: wifi mac time delta: 205318
+D (88153) phy_init: wifi mac time delta: 301344
+D (88463) phy_init: wifi mac time delta: 293715
+D (88763) phy_init: wifi mac time delta: 300814
+D (89073) phy_init: wifi mac time delta: 300513
+[64139489][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (89233) phy_init: wifi mac time delta: 147649
+[64139494][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 12 bytes written
+[64139498][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64139504][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (89693) phy_init: wifi mac time delta: 198713
+D (89993) phy_init: wifi mac time delta: 299454
+[64140492][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64140494][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 75 bytes written
+D (90233) phy_init: wifi mac time delta: 230184
+[64140502][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64140507][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64140521][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64140525][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 6 bytes written
+[64140531][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64140537][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64140547][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64140554][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 45 bytes written
+[64140560][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+D (90303) phy_init: wifi mac time delta: 3695
+[64140567][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64140745][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[0] m.type[1]] encoding
+[64140746][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[0] m.type[1]] mqtt_codec_layer sending message
+[64140754][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64140760][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64140769][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64140780][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 353 bytes written
+[64140784][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64140790][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64140799][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[0] m.type[1]] mqtt_codec_layer message sent
+[64140809][iotc_mqtt_logic_layer_connect_command.h:131 (do_mqtt_connect)] connect message has been sent
+[64140874][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[0] m.type[2]] msg decoded!
+[64140875][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[0] m.type[2]] received msg
+iotc_control_topic_connection_state_changed
+I (90623) APP: connected!
+I (90623) APP: subscribing to topic: "/devices/d_esp1/commands/#"
+I (90633) APP: subscribing to topic: "/devices/d_esp1/config"
+[64140902][iotc_mqtt_logic_layer_subscribe_command.h:59 (do_mqtt_subscribe)] [m.id[1]]subscribe preparing message
+[64140912][iotc_mqtt_logic_layer_subscribe_command.h:69 (do_mqtt_subscribe)] [m.id[1]]subscribe sending message
+[64140921][iotc_mqtt_logic_layer_subscribe_command.h:59 (do_mqtt_subscribe)] [m.id[2]]subscribe preparing message
+[64140931][iotc_mqtt_logic_layer_subscribe_command.h:69 (do_mqtt_subscribe)] [m.id[2]]subscribe sending message
+[64140941][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[8]] encoding
+[64140950][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[8]] mqtt_codec_layer sending message
+[64140960][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64140967][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64140976][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (90723) phy_init: wifi mac time delta: 59110
+[64140990][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 62 bytes written
+[64140995][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64141001][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64141009][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[8]] mqtt_codec_layer message sent
+[64141020][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[2] m.type[8]] encoding
+[64141028][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[2] m.type[8]] mqtt_codec_layer sending message
+[64141039][iotc_mqtt_logic_layer_subscribe_command.h:75 (do_mqtt_subscribe)] [m.id[1]]subscribe has been sent
+[64141049][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64141055][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64141064][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64141074][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 58 bytes written
+[64141079][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64141085][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64141093][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[2] m.type[8]] mqtt_codec_layer message sent
+[64141104][iotc_mqtt_logic_layer_subscribe_command.h:75 (do_mqtt_subscribe)] [m.id[2]]subscribe has been sent
+[64141117][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[1] m.type[9]] msg decoded!
+[64141122][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[1] m.type[9]] received msg
+[64141131][iotc_mqtt_logic_layer_subscribe_command.h:149 (do_mqtt_subscribe)] [m.id[1]]subscribe suback received
+I (90883) APP: Subscription Topic: /devices/d_esp1/commands/#
+I (90883) APP: Message Payload:  
+I (90893) APP: Inside topic
+
+I (90893) APP: value: 0
+[64141158][iotc_user_sub_call_wrapper.c:100 (iotc_user_sub_call_wrapper)] user callback returned with state: , (0)
+[64141172][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[2] m.type[9]] msg decoded!
+[64141177][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[2] m.type[9]] received msg
+D (90913) phy_init: wifi mac time delta: 491
+[64141186][iotc_mqtt_logic_layer_subscribe_command.h:149 (do_mqtt_subscribe)] [m.id[2]]subscribe suback received
+I (90943) APP: Subscription Topic: /devices/d_esp1/config
+I (90943) APP: Message Payload:  
+I (90953) APP: subscribe topic command: /devices/d_esp1/commands/#
+I (90953) APP: Message topic: /devices/d_esp1/config
+[64141223][iotc_user_sub_call_wrapper.c:100 (iotc_user_sub_call_wrapper)] user callback returned with state: , (0)
+[64141236][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[1] m.type[3]] msg decoded!
+[64141242][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[1] m.type[3]] received msg
+[64141251][iotc_mqtt_logic_layer_publish_handler.h:160 (on_publish_q1_recieved)] [m.id[1]preparing puback data
+[64141261][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[4]] encoding
+[64141269][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[4]] mqtt_codec_layer sending message
+[64141280][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64141286][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64141295][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64141305][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 33 bytes written
+D (91043) phy_init: wifi mac time delta: 17439
+[64141315][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64141321][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64141329][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[4]] mqtt_codec_layer message sent
+[64141340][iotc_mqtt_logic_layer_publish_handler.h:168 (on_publish_q1_recieved)] [m.id[1]]PUBACK sent
+[64141348][iotc_mqtt_logic_layer_publish_handler.h:48 (call_topic_handler)] [m.id[1]] looking for publish message handler
+I (91093) APP: Subscription Topic: /devices/d_esp1/config
+I (91103) APP: Message Payload:  
+I (91103) APP: subscribe topic command: /devices/d_esp1/commands/#
+I (91113) APP: Message topic: /devices/d_esp1/config
+[64141382][iotc_user_sub_call_wrapper.c:100 (iotc_user_sub_call_wrapper)] user callback returned with state: , (0)
+D (91223) phy_init: wifi mac time delta: 65635
+D (91533) phy_init: wifi mac time delta: 301377
+D (91843) phy_init: wifi mac time delta: 199061
+D (92143) phy_init: wifi mac time delta: 301377
+D (92453) phy_init: wifi mac time delta: 293373
+D (92763) phy_init: wifi mac time delta: 301616
+D (93073) phy_init: wifi mac time delta: 301376
+D (93373) phy_init: wifi mac time delta: 199206
+D (93683) phy_init: wifi mac time delta: 301542
+D (93993) phy_init: wifi mac time delta: 300905
+D (94293) phy_init: wifi mac time delta: 301601
+D (94603) phy_init: wifi mac time delta: 291955
+D (94913) phy_init: wifi mac time delta: 199212
+D (95223) phy_init: wifi mac time delta: 299672
+D (95523) phy_init: wifi mac time delta: 239778
+D (95833) phy_init: wifi mac time delta: 301443
+D (96143) phy_init: wifi mac time delta: 300762
+D (96443) phy_init: wifi mac time delta: 293556
+D (96753) phy_init: wifi mac time delta: 301148
+D (97063) phy_init: wifi mac time delta: 300248
+D (97373) phy_init: wifi mac time delta: 96326
+D (97673) phy_init: wifi mac time delta: 301523
+D (97983) phy_init: wifi mac time delta: 199145
+D (98293) phy_init: wifi mac time delta: 301538
+D (98593) phy_init: wifi mac time delta: 293652
+D (98903) phy_init: wifi mac time delta: 301160
+D (99213) phy_init: wifi mac time delta: 301505
+D (99523) phy_init: wifi mac time delta: 300789
+D (99823) phy_init: wifi mac time delta: 301514
+I (100133) APP: publishing msg "{temp : 20}" to topic: "/devices/d_esp1/events"
+[64150391][iotc_mqtt_logic_layer_publish_q1_command.h:64 (do_mqtt_publish_q1)] [m.id[3]]publish q1 preparing message
+D (100133) phy_init: wifi mac time delta: 301597
+[64150403][iotc_mqtt_logic_layer_publish_q1_command.h:78 (do_mqtt_publish_q1)] [m.id[3]]publish q1 sending message
+[64150413][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] encoding
+[64150421][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] mqtt_codec_layer sending message
+[64150432][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64150438][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64150447][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64150456][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 57 bytes written
+[64150462][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64150468][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64150476][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64150483][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64150491][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64150501][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 40 bytes written
+[64150506][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64150512][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64150521][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] mqtt_codec_layer message sent
+[64150532][iotc_mqtt_logic_layer_publish_q1_command.h:84 (do_mqtt_publish_q1)] [m.id[3]]publish q1 has been sent
+[64150601][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[3] m.type[4]] msg decoded!
+[64150602][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[3] m.type[4]] received msg
+[64150609][iotc_mqtt_logic_layer_publish_q1_command.h:155 (do_mqtt_publish_q1)] [m.id[3]]publish q1 publish puback received
+D (100443) phy_init: wifi mac time delta: 46940
+D (100553) phy_init: wifi mac time delta: 101950
+D (100753) phy_init: wifi mac time delta: 140734
+D (101053) phy_init: wifi mac time delta: 300269
+D (101363) phy_init: wifi mac time delta: 94607
+D (101673) phy_init: wifi mac time delta: 301508
+D (101973) phy_init: wifi mac time delta: 301079
+D (102283) phy_init: wifi mac time delta: 301624
+D (102593) phy_init: wifi mac time delta: 294504
+D (102903) phy_init: wifi mac time delta: 300263
+D (103203) phy_init: wifi mac time delta: 301538
+D (103513) phy_init: wifi mac time delta: 301598
+D (103823) phy_init: wifi mac time delta: 301076
+D (104123) phy_init: wifi mac time delta: 300484
+D (104433) phy_init: wifi mac time delta: 294472
+D (104743) phy_init: wifi mac time delta: 301377
+D (105053) phy_init: wifi mac time delta: 301256
+D (105353) phy_init: wifi mac time delta: 300246
+I (105363) APP: Delete previous connection
+I (105363) APP: Delete context state: 0
+I (105363) APP: Shutdown IOTC
+I (105363) APP: Shutdown state: 0
+I (105363) APP: Initialize IOTC
+I (105373) APP: Create new context
+I (105373) APP: Refreshing iotc JWT
+D (105663) phy_init: wifi mac time delta: 301532
+I (105843) APP: IOTCORE JWT State: 0
+
+[64156107][iotc.c:448 (iotc_connect_to)] New host:port [mqtt.2030.ltsapis.goog]:[8883]
+[64156107][iotc.c:462 (iotc_connect_to)] new backoff value: 0
+[64156113][iotc_control_topic_layer.c:77 (iotc_control_topic_layer_init)] control topic layer initializing.. 
+D (105973) phy_init: wifi mac time delta: 301377
+[64156283][iotc_tls_layer.c:560 (iotc_tls_layer_init)] BSP TLS initialization successfull
+[64156284][iotc_tls_layer.c:591 (iotc_tls_layer_init)] successfully initialized BSP TLS module
+[64156289][iotc_io_net_layer.c:61 (iotc_io_net_layer_connect)] Connecting layer [0] to the endpoint: mqtt.2030.ltsapis.goog:8883
+D (106043) phy_init: wifi mac time delta: 65402
+[64156359][iotc_io_net_layer.c:92 (iotc_io_net_layer_connect)] Connection successful!
+[64156361][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64156365][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 251 bytes written
+[64156371][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64156377][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (106273) phy_init: wifi mac time delta: 6342
+D (106583) phy_init: wifi mac time delta: 295265
+D (106893) phy_init: wifi mac time delta: 298718
+D (107203) phy_init: wifi mac time delta: 301313
+D (107503) phy_init: wifi mac time delta: 300399
+D (107813) phy_init: wifi mac time delta: 301271
+D (108123) phy_init: wifi mac time delta: 301083
+D (108433) phy_init: wifi mac time delta: 293582
+D (108733) phy_init: wifi mac time delta: 301445
+D (109043) phy_init: wifi mac time delta: 301484
+D (109353) phy_init: wifi mac time delta: 292384
+[64159706][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64159709][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 12 bytes written
+D (109443) phy_init: wifi mac time delta: 90363
+[64159716][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64159722][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (109653) phy_init: wifi mac time delta: 90406
+D (109963) phy_init: wifi mac time delta: 301372
+D (110273) phy_init: wifi mac time delta: 301426
+[64160791][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64160793][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 75 bytes written
+D (110533) phy_init: wifi mac time delta: 152208
+[64160796][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64160807][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64160820][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64160825][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 6 bytes written
+[64160830][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64160836][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64160846][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64160854][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 45 bytes written
+[64160860][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64160866][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64161010][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[0] m.type[1]] encoding
+[64161011][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[0] m.type[1]] mqtt_codec_layer sending message
+[64161019][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64161026][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64161035][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64161045][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 353 bytes written
+[64161049][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64161055][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64161064][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[0] m.type[1]] mqtt_codec_layer message sent
+[64161074][iotc_mqtt_logic_layer_connect_command.h:131 (do_mqtt_connect)] connect message has been sent
+[64161131][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[0] m.type[2]] msg decoded!
+[64161131][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[0] m.type[2]] received msg
+iotc_control_topic_connection_state_changed
+I (110883) APP: connected!
+I (110883) APP: subscribing to topic: "/devices/d_esp1/commands/#"
+I (110893) APP: subscribing to topic: "/devices/d_esp1/config"
+[64161159][iotc_mqtt_logic_layer_subscribe_command.h:59 (do_mqtt_subscribe)] [m.id[1]]subscribe preparing message
+[64161169][iotc_mqtt_logic_layer_subscribe_command.h:69 (do_mqtt_subscribe)] [m.id[1]]subscribe sending message
+[64161179][iotc_mqtt_logic_layer_subscribe_command.h:59 (do_mqtt_subscribe)] [m.id[2]]subscribe preparing message
+[64161188][iotc_mqtt_logic_layer_subscribe_command.h:69 (do_mqtt_subscribe)] [m.id[2]]subscribe sending message
+[64161198][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[8]] encoding
+[64161207][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[8]] mqtt_codec_layer sending message
+[64161217][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64161224][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64161233][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64161243][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 62 bytes written
+[64161247][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64161253][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64161262][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[8]] mqtt_codec_layer message sent
+[64161272][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[2] m.type[8]] encoding
+[64161281][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[2] m.type[8]] mqtt_codec_layer sending message
+[64161292][iotc_mqtt_logic_layer_subscribe_command.h:75 (do_mqtt_subscribe)] [m.id[1]]subscribe has been sent
+[64161301][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64161308][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64161316][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64161325][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 58 bytes written
+[64161331][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64161337][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64161346][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[2] m.type[8]] mqtt_codec_layer message sent
+[64161356][iotc_mqtt_logic_layer_subscribe_command.h:75 (do_mqtt_subscribe)] [m.id[2]]subscribe has been sent
+D (111193) phy_init: wifi mac time delta: 154587
+[64161467][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[1] m.type[9]] msg decoded!
+[64161468][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[1] m.type[9]] received msg
+[64161475][iotc_mqtt_logic_layer_subscribe_command.h:149 (do_mqtt_subscribe)] [m.id[1]]subscribe suback received
+I (111223) APP: Subscription Topic: /devices/d_esp1/commands/#
+I (111233) APP: Message Payload:  
+I (111233) APP: Inside topic
+
+I (111233) APP: value: 0
+[64161502][iotc_user_sub_call_wrapper.c:100 (iotc_user_sub_call_wrapper)] user callback returned with state: , (0)
+[64161515][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[2] m.type[9]] msg decoded!
+[64161521][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[2] m.type[9]] received msg
+[64161530][iotc_mqtt_logic_layer_subscribe_command.h:149 (do_mqtt_subscribe)] [m.id[2]]subscribe suback received
+I (111283) APP: Subscription Topic: /devices/d_esp1/config
+I (111283) APP: Message Payload:  
+I (111293) APP: subscribe topic command: /devices/d_esp1/commands/#
+I (111293) APP: Message topic: /devices/d_esp1/config
+[64161564][iotc_user_sub_call_wrapper.c:100 (iotc_user_sub_call_wrapper)] user callback returned with state: , (0)
+[64161576][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[1] m.type[3]] msg decoded!
+[64161582][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[1] m.type[3]] received msg
+[64161591][iotc_mqtt_logic_layer_publish_handler.h:160 (on_publish_q1_recieved)] [m.id[1]preparing puback data
+[64161600][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[4]] encoding
+[64161609][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[4]] mqtt_codec_layer sending message
+[64161620][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64161626][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64161635][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64161646][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 33 bytes written
+[64161650][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64161656][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64161664][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[4]] mqtt_codec_layer message sent
+[64161675][iotc_mqtt_logic_layer_publish_handler.h:168 (on_publish_q1_recieved)] [m.id[1]]PUBACK sent
+[64161683][iotc_mqtt_logic_layer_publish_handler.h:48 (call_topic_handler)] [m.id[1]] looking for publish message handler
+I (111433) APP: Subscription Topic: /devices/d_esp1/config
+I (111443) APP: Message Payload:  
+I (111443) APP: subscribe topic command: /devices/d_esp1/commands/#
+I (111453) APP: Message topic: /devices/d_esp1/config
+[64161717][iotc_user_sub_call_wrapper.c:100 (iotc_user_sub_call_wrapper)] user callback returned with state: , (0)
+D (111803) phy_init: wifi mac time delta: 255620
+D (112113) phy_init: wifi mac time delta: 298589
+D (112423) phy_init: wifi mac time delta: 292836
+D (112733) phy_init: wifi mac time delta: 264412
+D (113033) phy_init: wifi mac time delta: 300028
+D (113343) phy_init: wifi mac time delta: 283801
+D (113653) phy_init: wifi mac time delta: 301462
+D (113953) phy_init: wifi mac time delta: 198956
+D (114263) phy_init: wifi mac time delta: 300776
+D (114573) phy_init: wifi mac time delta: 294502
+D (114883) phy_init: wifi mac time delta: 301573
+D (115183) phy_init: wifi mac time delta: 301358
+D (115493) phy_init: wifi mac time delta: 245391
+D (115803) phy_init: wifi mac time delta: 245700
+D (116113) phy_init: wifi mac time delta: 301043
+D (116413) phy_init: wifi mac time delta: 295419
+D (116723) phy_init: wifi mac time delta: 301380
+D (117033) phy_init: wifi mac time delta: 199082
+D (117333) phy_init: wifi mac time delta: 198908
+D (117643) phy_init: wifi mac time delta: 301404
+D (117953) phy_init: wifi mac time delta: 301313
+D (118263) phy_init: wifi mac time delta: 299882
+D (118563) phy_init: wifi mac time delta: 295093
+D (118873) phy_init: wifi mac time delta: 300630
+D (119183) phy_init: wifi mac time delta: 301281
+D (119483) phy_init: wifi mac time delta: 299141
+D (119793) phy_init: wifi mac time delta: 301214
+D (120103) phy_init: wifi mac time delta: 299322
+D (120233) phy_init: wifi mac time delta: 113305
+D (120413) phy_init: wifi mac time delta: 122099
+I (120463) APP: publishing msg "{temp : 28}" to topic: "/devices/d_esp1/events"
+[64170721][iotc_mqtt_logic_layer_publish_q1_command.h:64 (do_mqtt_publish_q1)] [m.id[3]]publish q1 preparing message
+[64170728][iotc_mqtt_logic_layer_publish_q1_command.h:78 (do_mqtt_publish_q1)] [m.id[3]]publish q1 sending message
+[64170738][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] encoding
+[64170747][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] mqtt_codec_layer sending message
+[64170757][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64170764][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64170773][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (120523) phy_init: wifi mac time delta: 105058
+[64170787][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 57 bytes written
+[64170792][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64170798][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64170807][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64170813][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64170822][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64170833][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 40 bytes written
+[64170837][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64170843][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64170851][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] mqtt_codec_layer message sent
+[64170862][iotc_mqtt_logic_layer_publish_q1_command.h:84 (do_mqtt_publish_q1)] [m.id[3]]publish q1 has been sent
+D (120713) phy_init: wifi mac time delta: 84882
+[64170989][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[3] m.type[4]] msg decoded!
+[64170990][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[3] m.type[4]] received msg
+[64170997][iotc_mqtt_logic_layer_publish_q1_command.h:155 (do_mqtt_publish_q1)] [m.id[3]]publish q1 publish puback received
+D (120803) phy_init: wifi mac time delta: 18414
+D (121023) phy_init: wifi mac time delta: 165966
+D (121333) phy_init: wifi mac time delta: 198716
+D (121633) phy_init: wifi mac time delta: 301221
+D (121943) phy_init: wifi mac time delta: 301567
+D (122253) phy_init: wifi mac time delta: 301537
+D (122563) phy_init: wifi mac time delta: 293042
+D (122863) phy_init: wifi mac time delta: 301492
+D (123173) phy_init: wifi mac time delta: 300873
+D (123483) phy_init: wifi mac time delta: 301599
+D (123793) phy_init: wifi mac time delta: 301246
+D (124093) phy_init: wifi mac time delta: 198829
+D (124403) phy_init: wifi mac time delta: 290936
+D (124713) phy_init: wifi mac time delta: 301466
+D (125013) phy_init: wifi mac time delta: 301160
+D (125323) phy_init: wifi mac time delta: 293285
+D (125633) phy_init: wifi mac time delta: 297086
+I (125743) APP: Delete previous connection
+I (125743) APP: Delete context state: 0
+I (125743) APP: Shutdown IOTC
+I (125743) APP: Shutdown state: 0
+I (125743) APP: Initialize IOTC
+I (125753) APP: Create new context
+I (125753) APP: Refreshing iotc JWT
+D (125943) phy_init: wifi mac time delta: 237959
+D (126243) phy_init: wifi mac time delta: 301100
+I (126323) APP: IOTCORE JWT State: 0
+
+[64176585][iotc.c:448 (iotc_connect_to)] New host:port [mqtt.2030.ltsapis.goog]:[8883]
+[64176586][iotc.c:462 (iotc_connect_to)] new backoff value: 0
+[64176591][iotc_control_topic_layer.c:77 (iotc_control_topic_layer_init)] control topic layer initializing.. 
+[64176759][iotc_tls_layer.c:560 (iotc_tls_layer_init)] BSP TLS initialization successfull
+[64176760][iotc_tls_layer.c:591 (iotc_tls_layer_init)] successfully initialized BSP TLS module
+[64176765][iotc_io_net_layer.c:61 (iotc_io_net_layer_connect)] Connecting layer [0] to the endpoint: mqtt.2030.ltsapis.goog:8883
+D (126523) phy_init: wifi mac time delta: 163744
+[64176833][iotc_io_net_layer.c:92 (iotc_io_net_layer_connect)] Connection successful!
+[64176835][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64176840][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 251 bytes written
+[64176845][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64176851][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (126863) phy_init: wifi mac time delta: 137921
+D (127163) phy_init: wifi mac time delta: 198846
+D (127473) phy_init: wifi mac time delta: 197206
+D (127783) phy_init: wifi mac time delta: 196810
+D (128093) phy_init: wifi mac time delta: 198406
+D (128393) phy_init: wifi mac time delta: 198668
+D (128703) phy_init: wifi mac time delta: 198766
+D (129013) phy_init: wifi mac time delta: 95309
+D (129313) phy_init: wifi mac time delta: 301582
+D (129623) phy_init: wifi mac time delta: 301321
+D (129933) phy_init: wifi mac time delta: 299551
+[64180207][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64180210][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 12 bytes written
+D (129953) phy_init: wifi mac time delta: 9537
+[64180217][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64180223][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (130243) phy_init: wifi mac time delta: 182352
+D (130543) phy_init: wifi mac time delta: 300092
+D (130853) phy_init: wifi mac time delta: 298796
+[64181301][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64181302][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 75 bytes written
+[64181306][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64181311][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64181325][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64181329][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 6 bytes written
+[64181335][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64181341][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64181351][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64181359][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 45 bytes written
+[64181365][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64181371][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (131163) phy_init: wifi mac time delta: 301255
+D (131473) phy_init: wifi mac time delta: 301196
+D (131553) phy_init: wifi mac time delta: 75290
+D (131773) phy_init: wifi mac time delta: 167520
+D (132083) phy_init: wifi mac time delta: 239302
+D (132393) phy_init: wifi mac time delta: 291211
+[64182678][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[0] m.type[1]] encoding
+[64182679][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[0] m.type[1]] mqtt_codec_layer sending message
+[64182687][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64182693][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64182703][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64182713][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 353 bytes written
+[64182717][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64182723][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64182732][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[0] m.type[1]] mqtt_codec_layer message sent
+[64182742][iotc_mqtt_logic_layer_connect_command.h:131 (do_mqtt_connect)] connect message has been sent
+[64182802][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[0] m.type[2]] msg decoded!
+[64182803][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[0] m.type[2]] received msg
+iotc_control_topic_connection_state_changed
+I (132553) APP: connected!
+I (132553) APP: subscribing to topic: "/devices/d_esp1/commands/#"
+I (132563) APP: subscribing to topic: "/devices/d_esp1/config"
+[64182830][iotc_mqtt_logic_layer_subscribe_command.h:59 (do_mqtt_subscribe)] [m.id[1]]subscribe preparing message
+[64182840][iotc_mqtt_logic_layer_subscribe_command.h:69 (do_mqtt_subscribe)] [m.id[1]]subscribe sending message
+[64182850][iotc_mqtt_logic_layer_subscribe_command.h:59 (do_mqtt_subscribe)] [m.id[2]]subscribe preparing message
+[64182860][iotc_mqtt_logic_layer_subscribe_command.h:69 (do_mqtt_subscribe)] [m.id[2]]subscribe sending message
+[64182870][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[8]] encoding
+[64182878][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[8]] mqtt_codec_layer sending message
+[64182889][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64182895][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64182904][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64182913][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 62 bytes written
+D (132653) phy_init: wifi mac time delta: 44129
+[64182919][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64182929][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64182938][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[8]] mqtt_codec_layer message sent
+[64182948][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[2] m.type[8]] encoding
+[64182957][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[2] m.type[8]] mqtt_codec_layer sending message
+[64182968][iotc_mqtt_logic_layer_subscribe_command.h:75 (do_mqtt_subscribe)] [m.id[1]]subscribe has been sent
+[64182977][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64182984][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64182993][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64183003][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 58 bytes written
+[64183007][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64183013][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64183022][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[2] m.type[8]] mqtt_codec_layer message sent
+[64183032][iotc_mqtt_logic_layer_subscribe_command.h:75 (do_mqtt_subscribe)] [m.id[2]]subscribe has been sent
+[64183046][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[1] m.type[9]] msg decoded!
+[64183051][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[1] m.type[9]] received msg
+[64183060][iotc_mqtt_logic_layer_subscribe_command.h:149 (do_mqtt_subscribe)] [m.id[1]]subscribe suback received
+I (132813) APP: Subscription Topic: /devices/d_esp1/commands/#
+I (132813) APP: Message Payload:  
+I (132823) APP: Inside topic
+
+I (132823) APP: value: 0
+[64183087][iotc_user_sub_call_wrapper.c:100 (iotc_user_sub_call_wrapper)] user callback returned with state: , (0)
+[64183101][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[2] m.type[9]] msg decoded!
+[64183106][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[2] m.type[9]] received msg
+[64183115][iotc_mqtt_logic_layer_subscribe_command.h:149 (do_mqtt_subscribe)] [m.id[2]]subscribe suback received
+I (132863) APP: Subscription Topic: /devices/d_esp1/config
+I (132873) APP: Message Payload:  
+I (132873) APP: subscribe topic command: /devices/d_esp1/commands/#
+I (132883) APP: Message topic: /devices/d_esp1/config
+[64183148][iotc_user_sub_call_wrapper.c:100 (iotc_user_sub_call_wrapper)] user callback returned with state: , (0)
+[64183161][iotc_mqtt_codec_layer.c:306 (iotc_mqtt_codec_layer_pull)] [m.id[1] m.type[3]] msg decoded!
+[64183167][iotc_mqtt_logic_layer.c:272 (iotc_mqtt_logic_layer_pull)] [m.id[1] m.type[3]] received msg
+[64183176][iotc_mqtt_logic_layer_publish_handler.h:160 (on_publish_q1_recieved)] [m.id[1]preparing puback data
+[64183186][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[4]] encoding
+[64183194][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[4]] mqtt_codec_layer sending message
+[64183205][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64183211][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64183220][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64183230][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 33 bytes written
+D (132973) phy_init: wifi mac time delta: 123313
+[64183235][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64183246][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64183254][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[1] m.type[4]] mqtt_codec_layer message sent
+[64183265][iotc_mqtt_logic_layer_publish_handler.h:168 (on_publish_q1_recieved)] [m.id[1]]PUBACK sent
+[64183273][iotc_mqtt_logic_layer_publish_handler.h:48 (call_topic_handler)] [m.id[1]] looking for publish message handler
+I (133023) APP: Subscription Topic: /devices/d_esp1/config
+I (133033) APP: Message Payload:  
+I (133033) APP: subscribe topic command: /devices/d_esp1/commands/#
+I (133043) APP: Message topic: /devices/d_esp1/config
+[64183307][iotc_user_sub_call_wrapper.c:100 (iotc_user_sub_call_wrapper)] user callback returned with state: , (0)
+D (133313) phy_init: wifi mac time delta: 275363
+D (133623) phy_init: wifi mac time delta: 213712
+D (133923) phy_init: wifi mac time delta: 301533
+D (134233) phy_init: wifi mac time delta: 301556
+D (134543) phy_init: wifi mac time delta: 294476
+D (134843) phy_init: wifi mac time delta: 300908
+D (135153) phy_init: wifi mac time delta: 301541
+D (135463) phy_init: wifi mac time delta: 300749
+D (135773) phy_init: wifi mac time delta: 301573
+D (136073) phy_init: wifi mac time delta: 242263
+D (136383) phy_init: wifi mac time delta: 294744
+D (136693) phy_init: wifi mac time delta: 301527
+D (136993) phy_init: wifi mac time delta: 293079
+D (137303) phy_init: wifi mac time delta: 301571
+D (137613) phy_init: wifi mac time delta: 300050
+D (137923) phy_init: wifi mac time delta: 301106
+D (138223) phy_init: wifi mac time delta: 199180
+D (138533) phy_init: wifi mac time delta: 292183
+D (138843) phy_init: wifi mac time delta: 300894
+D (139153) phy_init: wifi mac time delta: 301541
+D (139453) phy_init: wifi mac time delta: 199104
+D (139763) phy_init: wifi mac time delta: 301575
+D (140073) phy_init: wifi mac time delta: 301577
+D (140373) phy_init: wifi mac time delta: 293690
+D (140683) phy_init: wifi mac time delta: 301126
+D (140993) phy_init: wifi mac time delta: 301556
+D (141303) phy_init: wifi mac time delta: 301508
+D (141603) phy_init: wifi mac time delta: 299949
+D (141913) phy_init: wifi mac time delta: 301070
+I (142053) APP: publishing msg "{temp : 22}" to topic: "/devices/d_esp1/events"
+[64192312][iotc_mqtt_logic_layer_publish_q1_command.h:64 (do_mqtt_publish_q1)] [m.id[3]]publish q1 preparing message
+[64192318][iotc_mqtt_logic_layer_publish_q1_command.h:78 (do_mqtt_publish_q1)] [m.id[3]]publish q1 sending message
+[64192328][iotc_mqtt_codec_layer.c:129 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] encoding
+[64192337][iotc_mqtt_codec_layer.c:154 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] mqtt_codec_layer sending message
+[64192347][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64192354][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64192363][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+D (142113) phy_init: wifi mac time delta: 192327
+[64192378][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 57 bytes written
+[64192382][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64192388][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64192397][iotc_tls_layer.c:387 (iotc_tls_layer_push)] init writing data
+[64192403][iotc_tls_layer.c:391 (iotc_tls_layer_push)] writing status 0 and coroutine state 1
+[64192412][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64192421][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 40 bytes written
+[64192427][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64192433][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64192441][iotc_mqtt_codec_layer.c:196 (iotc_mqtt_codec_layer_push)] [m.id[3] m.type[3]] mqtt_codec_layer message sent
+[64192452][iotc_mqtt_logic_layer_publish_q1_command.h:84 (do_mqtt_publish_q1)] [m.id[3]]publish q1 has been sent
+I (142203) APP: Delete previous connection
+I (142203) APP: Delete context state: 0
+I (142213) APP: Shutdown IOTC
+I (142213) APP: Shutdown state: 0
+I (142213) APP: Initialize IOTC
+I (142223) APP: Create new context
+I (142223) APP: Refreshing iotc JWT
+D (142523) phy_init: wifi mac time delta: 237077
+D (142833) phy_init: wifi mac time delta: 226864
+I (142843) APP: IOTCORE JWT State: 0
+
+[64193107][iotc.c:448 (iotc_connect_to)] New host:port [mqtt.2030.ltsapis.goog]:[8883]
+[64193108][iotc.c:462 (iotc_connect_to)] new backoff value: 0
+[64193114][iotc_control_topic_layer.c:77 (iotc_control_topic_layer_init)] control topic layer initializing.. 
+[64193280][iotc_tls_layer.c:560 (iotc_tls_layer_init)] BSP TLS initialization successfull
+[64193281][iotc_tls_layer.c:591 (iotc_tls_layer_init)] successfully initialized BSP TLS module
+[64193285][iotc_io_net_layer.c:61 (iotc_io_net_layer_connect)] Connecting layer [0] to the endpoint: mqtt.2030.ltsapis.goog:8883
+D (143043) phy_init: wifi mac time delta: 197766
+[64193352][iotc_io_net_layer.c:92 (iotc_io_net_layer_connect)] Connection successful!
+[64193354][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64193360][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 251 bytes written
+[64193364][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64193370][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64193497][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64193499][iotc_io_net_layer.c:185 (iotc_io_net_layer_push)] yield in write - [61]
+[64193504][iotc_tls_layer.c:671 (iotc_tls_layer_close_externally)] cleaning TLS library
+[64193511][iotc_tls_layer.c:675 (iotc_tls_layer_close_externally)] cleaning received buffer
+[64193518][iotc_backoff_status_api.c:175 (iotc_update_backoff_penalty)] inc backoff index: 1
+iotc_control_topic_connection_state_changed
+I (143273) APP: ERROR! Connection has failed reason 62
+D (143453) phy_init: wifi mac time delta: 150004
+D (143753) phy_init: wifi mac time delta: 301585
+D (144063) phy_init: wifi mac time delta: 301027
+D (144373) phy_init: wifi mac time delta: 295407
+D (144673) phy_init: wifi mac time delta: 211902
+D (144983) phy_init: wifi mac time delta: 294426
+D (145293) phy_init: wifi mac time delta: 301589
+D (145603) phy_init: wifi mac time delta: 300923
+D (145903) phy_init: wifi mac time delta: 301577
+D (146213) phy_init: wifi mac time delta: 301564
+D (146523) phy_init: wifi mac time delta: 291877
+D (146833) phy_init: wifi mac time delta: 301592
+D (147133) phy_init: wifi mac time delta: 301431
+D (147443) phy_init: wifi mac time delta: 301581
+D (147753) phy_init: wifi mac time delta: 199077
+D (148053) phy_init: wifi mac time delta: 301518
+D (148363) phy_init: wifi mac time delta: 294880
+D (148673) phy_init: wifi mac time delta: 299452
+D (148983) phy_init: wifi mac time delta: 199131
+D (149283) phy_init: wifi mac time delta: 300905
+D (149593) phy_init: wifi mac time delta: 301552
+D (149903) phy_init: wifi mac time delta: 300006
+D (150203) phy_init: wifi mac time delta: 301532
+D (150513) phy_init: wifi mac time delta: 292710
+D (150823) phy_init: wifi mac time delta: 301366
+D (151133) phy_init: wifi mac time delta: 301311
+D (151433) phy_init: wifi mac time delta: 300095
+D (151743) phy_init: wifi mac time delta: 301553
+D (152053) phy_init: wifi mac time delta: 300761
+D (152353) phy_init: wifi mac time delta: 295018
+D (152663) phy_init: wifi mac time delta: 301495
+D (152973) phy_init: wifi mac time delta: 299398
+D (153283) phy_init: wifi mac time delta: 301608
+D (153583) phy_init: wifi mac time delta: 301519
+D (153893) phy_init: wifi mac time delta: 301508
+D (154203) phy_init: wifi mac time delta: 300205
+D (154513) phy_init: wifi mac time delta: 292302
+D (154813) phy_init: wifi mac time delta: 301509
+D (155123) phy_init: wifi mac time delta: 301540
+D (155433) phy_init: wifi mac time delta: 244077
+D (155733) phy_init: wifi mac time delta: 298827
+D (156043) phy_init: wifi mac time delta: 301454
+D (156353) phy_init: wifi mac time delta: 294211
+D (156663) phy_init: wifi mac time delta: 300516
+D (156963) phy_init: wifi mac time delta: 301440
+D (157273) phy_init: wifi mac time delta: 301558
+D (157583) phy_init: wifi mac time delta: 301409
+D (157883) phy_init: wifi mac time delta: 301545
+D (158193) phy_init: wifi mac time delta: 301511
+I (158483) APP: Delete previous connection
+I (158483) APP: Delete context state: 0
+I (158483) APP: Shutdown IOTC
+I (158483) APP: Shutdown state: 0
+I (158493) APP: Initialize IOTC
+I (158493) APP: Create new context
+I (158493) APP: Refreshing iotc JWT
+D (158503) phy_init: wifi mac time delta: 292463
+D (158813) phy_init: wifi mac time delta: 199028
+I (159113) APP: IOTCORE JWT State: 0
+
+[64209375][iotc.c:448 (iotc_connect_to)] New host:port [mqtt.2030.ltsapis.goog]:[8883]
+[64209376][iotc.c:462 (iotc_connect_to)] new backoff value: 1
+D (159113) phy_init: wifi mac time delta: 301576
+[64209388][iotc_control_topic_layer.c:77 (iotc_control_topic_layer_init)] control topic layer initializing.. 
+[64209556][iotc_tls_layer.c:560 (iotc_tls_layer_init)] BSP TLS initialization successfull
+[64209557][iotc_tls_layer.c:591 (iotc_tls_layer_init)] successfully initialized BSP TLS module
+[64209562][iotc_io_net_layer.c:61 (iotc_io_net_layer_connect)] Connecting layer [0] to the endpoint: mqtt.2030.ltsapis.goog:8883
+D (159313) phy_init: wifi mac time delta: 90208
+[64209625][iotc_io_net_layer.c:92 (iotc_io_net_layer_connect)] Connection successful!
+[64209628][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64209633][iotc_io_net_layer.c:208 (iotc_io_net_layer_push)] 251 bytes written
+[64209638][iotc_tls_layer.c:376 (iotc_tls_layer_push)] data written
+[64209644][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64209784][iotc_tls_layer.c:84 (iotc_bsp_tls_send_callback)] Entering iotc_bsp_tls_send_callback
+[64209786][iotc_io_net_layer.c:185 (iotc_io_net_layer_push)] yield in write - [62]
+[64209792][iotc_tls_layer.c:671 (iotc_tls_layer_close_externally)] cleaning TLS library
+[64209798][iotc_tls_layer.c:675 (iotc_tls_layer_close_externally)] cleaning received buffer
+[64209806][iotc_backoff_status_api.c:175 (iotc_update_backoff_penalty)] inc backoff index: 2
+iotc_control_topic_connection_state_changed
+I (159553) APP: ERROR! Connection has failed reason 62
+D (159733) phy_init: wifi mac time delta: 96511
+D (160033) phy_init: wifi mac time delta: 301444
+D (160343) phy_init: wifi mac time delta: 294283
+D (160653) phy_init: wifi mac time delta: 301511
+D (160963) phy_init: wifi mac time delta: 301456
+D (161263) phy_init: wifi mac time delta: 301566
+D (161573) phy_init: wifi mac time delta: 301510
+D (161883) phy_init: wifi mac time delta: 300640
+D (162193) phy_init: wifi mac time delta: 301472
+D (162493) phy_init: wifi mac time delta: 293650
+D (162803) phy_init: wifi mac time delta: 301558
+D (163113) phy_init: wifi mac time delta: 301521
+D (163413) phy_init: wifi mac time delta: 300349
+D (163723) phy_init: wifi mac time delta: 299996
+D (164033) phy_init: wifi mac time delta: 290339
+D (164343) phy_init: wifi mac time delta: 295418
+D (164643) phy_init: wifi mac time delta: 301409
+D (164953) phy_init: wifi mac time delta: 301449
+D (165263) phy_init: wifi mac time delta: 300078
+D (165563) phy_init: wifi mac time delta: 301526
+D (165873) phy_init: wifi mac time delta: 298446
+D (166183) phy_init: wifi mac time delta: 301476
+D (166493) phy_init: wifi mac time delta: 295444
+D (166793) phy_init: wifi mac time delta: 301483
+D (167103) phy_init: wifi mac time delta: 301477
+D (167413) phy_init: wifi mac time delta: 299228
+D (167713) phy_init: wifi mac time delta: 298552
+D (168023) phy_init: wifi mac time delta: 299802
+D (168333) phy_init: wifi mac time delta: 196641
+D (168643) phy_init: wifi mac time delta: 301500
+D (168943) phy_init: wifi mac time delta: 301434
+D (169253) phy_init: wifi mac time delta: 301548
+D (169563) phy_init: wifi mac time delta: 300871
+D (169873) phy_init: wifi mac time delta: 300374
+D (170173) phy_init: wifi mac time delta: 299918
+D (170483) phy_init: wifi mac time delta: 293278
+D (170793) phy_init: wifi mac time delta: 301522
+D (171093) phy_init: wifi mac time delta: 294349
+D (171403) phy_init: wifi mac time delta: 301577
+D (171713) phy_init: wifi mac time delta: 301503
+D (172023) phy_init: wifi mac time delta: 299773
+D (172323) phy_init: wifi mac time delta: 295481
+D (172633) phy_init: wifi mac time delta: 117566
+D (172943) phy_init: wifi mac time delta: 301565
+D (173243) phy_init: wifi mac time delta: 301501
+
+Done
+

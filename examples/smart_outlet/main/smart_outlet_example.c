@@ -36,6 +36,8 @@ const static int CONNECTED_BIT = BIT0;
 
 #define IOTC_UNUSED(x) (void)(x)
 
+/* Ten minute refresh */
+#define REFRESH_TIMEOUT_S 30u
 #define DEVICE_PATH "projects/%s/locations/%s/registries/%s/devices/%s"
 #define SUBSCRIBE_TOPIC_COMMAND "/devices/%s/commands/#"
 #define SUBSCRIBE_TOPIC_CONFIG "/devices/%s/config"
@@ -126,7 +128,8 @@ void iotc_mqttlogic_subscribe_callback(
         memcpy(sub_message, params->message.temporary_payload_data, params->message.temporary_payload_data_length);
         sub_message[params->message.temporary_payload_data_length] = '\0';
         ESP_LOGI(TAG, "Message Payload: %s ", sub_message);
-        if (strcmp(subscribe_topic_command, params->message.topic) == 0) {
+        if (strncmp(subscribe_topic_command, params->message.topic, strlen(params->message.topic)) == 0) {
+            ESP_LOGI(TAG, "Inside topic\n");
             int value;
             sscanf(sub_message, "{\"outlet\": %d}", &value);
             ESP_LOGI(TAG, "value: %d", value);
@@ -136,6 +139,11 @@ void iotc_mqttlogic_subscribe_callback(
                 gpio_set_level(OUTPUT_GPIO, false);
             }
         }
+        else {
+            ESP_LOGI(TAG, "subscribe topic command: %s", subscribe_topic_command);
+            ESP_LOGI(TAG, "Message topic: %s", params->message.topic);
+        }
+
         free(sub_message);
     }
 }
@@ -280,7 +288,7 @@ static void mqtt_task(void *pvParameters)
 
     /* initialize iotc library and create a context to use to connect to the
     * GCP IoT Core Service. */
-    const iotc_state_t error_init = iotc_initialize();
+    iotc_state_t error_init = iotc_initialize();
 
     if (IOTC_STATE_OK != error_init) {
         ESP_LOGE(TAG, " iotc failed to initialize, error: %d", error_init);
@@ -310,7 +318,7 @@ static void mqtt_task(void *pvParameters)
     size_t bytes_written = 0;
     iotc_state_t state = iotc_create_iotcore_jwt(
                              CONFIG_GIOT_PROJECT_ID,
-                             /*jwt_expiration_period_sec=*/3600, &iotc_connect_private_key_data, jwt,
+                             /*jwt_expiration_period_sec (16 bit)=*/REFRESH_TIMEOUT_S, &iotc_connect_private_key_data, jwt,
                              IOTC_JWT_SIZE, &bytes_written);
 
     if (IOTC_STATE_OK != state) {
@@ -331,7 +339,64 @@ static void mqtt_task(void *pvParameters)
         will stop after closing the connection, using iotc_shutdown_connection() as
         defined in on_connection_state_change logic, and exit the event handler
         handler by calling iotc_events_stop(); */
-    iotc_events_process_blocking();
+    // iotc_events_process_blocking();
+
+    time_t prev_time = time(NULL);
+    time_t curr_time = time(NULL);
+
+    while(1)
+    {
+        (void)iotc_events_process_tick();
+        curr_time = time(NULL);
+        if(difftime(curr_time, prev_time) > REFRESH_TIMEOUT_S)
+        {
+            ESP_LOGI(TAG, "Delete previous connection");
+            /* Stop previous connection */
+            (void)iotc_shutdown_connection(iotc_context);
+            // iotc_events_stop();
+            while(iotc_is_context_connected(iotc_context) == 1u);
+            state = iotc_delete_context(iotc_context);
+            ESP_LOGI(TAG, "Delete context state: %d", state);
+
+            ESP_LOGI(TAG, "Shutdown IOTC");
+            state = iotc_shutdown();
+            ESP_LOGI(TAG, "Shutdown state: %d", state);
+
+            ESP_LOGI(TAG, "Initialize IOTC");
+            error_init = iotc_initialize();
+
+            if (IOTC_STATE_OK != error_init) {
+                ESP_LOGE(TAG, " iotc failed to initialize, error: %d", error_init);
+                vTaskDelete(NULL);
+            }
+
+            ESP_LOGI(TAG, "Create new context");
+            /*  Create a connection context. A context represents a Connection
+                on a single socket, and can be used to publish and subscribe
+                to numerous topics. */
+            iotc_context = iotc_create_context();
+            if (IOTC_INVALID_CONTEXT_HANDLE >= iotc_context) {
+                ESP_LOGE(TAG, " iotc failed to create context, error: %d", -iotc_context);
+                vTaskDelete(NULL);
+            }
+
+            ESP_LOGI(TAG, "Refreshing iotc JWT");
+
+            state = iotc_create_iotcore_jwt(
+                             CONFIG_GIOT_PROJECT_ID,
+                             /*jwt_expiration_period_sec (16 bit)=*/REFRESH_TIMEOUT_S, &iotc_connect_private_key_data, jwt,
+                             IOTC_JWT_SIZE, &bytes_written);
+            ESP_LOGI(TAG, "IOTCORE JWT State: %d\n", state);
+
+            char *dev_path = NULL;
+            asprintf(&dev_path, DEVICE_PATH, CONFIG_GIOT_PROJECT_ID, CONFIG_GIOT_LOCATION, CONFIG_GIOT_REGISTRY_ID, CONFIG_GIOT_DEVICE_ID);
+            iotc_connect(iotc_context, NULL, jwt, dev_path, connection_timeout,
+                         keepalive_timeout, &on_connection_state_changed);
+            free(dev_path);
+
+            prev_time = time(NULL);
+        }
+    }
 
     iotc_delete_context(iotc_context);
 

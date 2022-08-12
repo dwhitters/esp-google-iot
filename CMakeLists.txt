@@ -46,7 +46,7 @@ set (COMPONENT_SRCDIRS
         "${GOOGLE_IOT_SDK}/src/libiotc/tls/certs"
         "${GOOGLE_IOT_SDK}/third_party/mqtt-protocol-c"
         "${GOOGLE_IOT_SDK}/../port/src")
-        
+
 set (COMPONENT_SUBMODULES "${GOOGLE_IOT_SDK}")
 
 set (COMPONENT_OBJEXCLUDE "${GOOGLE_IOT_SDK}/src/libiotc/iotc_test.o")
